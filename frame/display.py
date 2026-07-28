@@ -134,8 +134,8 @@ def _paper(img):
 
 # The mat opening is an A5 rectangle (1 : sqrt(2)) centred in the panel; the
 # content floats inside it with `mat` of inner whitespace.
-A5_H = PANEL_H * .95           # A5 is 1/sqrt(2) of the panel height
-A5_W = A5_H * .95              # A5 aspect 1 : sqrt(2)
+A5_H = PANEL_H * .85           # A5 is 1/sqrt(2) of the panel height
+A5_W = A5_H * .85              # A5 aspect 1 : sqrt(2)
 
 
 def _place(content, paper, mat):
@@ -175,7 +175,7 @@ def _centroid_x(img, paper):
 # Content layout inside the A5 opening: the title and collage are sized
 # independently (as fractions of the opening width), so tuning one leaves the
 # other untouched. gap is a fraction of the opening height.
-TITLE_H_FRAC, COLLAGE_FRAC, GAP_FRAC = 0.080, 0.66, 0.1   
+TITLE_H_FRAC, COLLAGE_FRAC, GAP_FRAC = 0.075, 0.66, 0.1   
 # original values: 0.065, 0.66, 0.1
 
 
