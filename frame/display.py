@@ -32,7 +32,7 @@ try:
 except ModuleNotFoundError:  # Python < 3.11
     import tomli as tomllib
 
-PANEL_W, PANEL_H = 1200, 1600  # portrait; the panel itself is 1600x1200
+PANEL_W, PANEL_H = 480, 800  # portrait; the panel itself is 1600x1200
 
 # Approximate Spectra-6 inks, used only for --preview. On hardware the Inky
 # library maps to the panel's real palette.
