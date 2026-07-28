@@ -134,8 +134,8 @@ def _paper(img):
 
 # The mat opening is an A5 rectangle (1 : sqrt(2)) centred in the panel; the
 # content floats inside it with `mat` of inner whitespace.
-A5_H = PANEL_H * 1.2           # A5 is 1/sqrt(2) of the panel height
-A5_W = A5_H * 1.2              # A5 aspect 1 : sqrt(2)
+A5_H = PANEL_H * 1           # A5 is 1/sqrt(2) of the panel height
+A5_W = A5_H * 1              # A5 aspect 1 : sqrt(2)
 
 
 def _place(content, paper, mat):
