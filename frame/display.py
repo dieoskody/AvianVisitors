@@ -31,7 +31,7 @@ try:
 except ModuleNotFoundError:  # Python < 3.11
     import tomli as tomllib
 
-PANEL_W, PANEL_H = 1200, 1600  # portrait; the panel itself is 1600x1200
+PANEL_W, PANEL_H = 480,800  # portrait; the panel itself is 1600x1200
 
 # Approximate Spectra-6 inks, used only for --preview. On hardware the Inky
 # library maps to the panel's real palette.
@@ -119,7 +119,7 @@ def _paper(img):
 
 # The mat opening is an A5 rectangle (1 : sqrt(2)) centred in the panel; the
 # content floats inside it with `mat` of inner whitespace.
-A5_H = PANEL_H * 0.7071           # A5 is 1/sqrt(2) of the panel height
+A5_H = PANEL_H * 0.97           # A5 is 1/sqrt(2) of the panel height
 A5_W = A5_H / 1.41421             # A5 aspect 1 : sqrt(2)
 
 
