@@ -155,7 +155,7 @@ def _centroid_x(img, paper):
 # Content layout inside the A5 opening: the title and collage are sized
 # independently (as fractions of the opening width), so tuning one leaves the
 # other untouched. gap is a fraction of the opening height.
-TITLE_FRAC, COLLAGE_FRAC, GAP_FRAC = 0.55, 0.66, 0.1
+TITLE_FRAC, COLLAGE_FRAC, GAP_FRAC = 0.45, 0.65, 0.1
 
 
 def mat_and_center(img, mat):
